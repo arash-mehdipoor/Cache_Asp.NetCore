@@ -1,0 +1,17 @@
+﻿@model DateTime?
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<a asp-controller="Home" asp-action="Index" class="btn btn-success">Try Get Value cache</a>
+<a asp-controller="Home" asp-action="GetOrCreateCache" class="btn btn-warning">Get Or Create cache</a>
+<a asp-controller="Home" asp-action="RemoveCache" class="btn btn-danger">Remove cache</a>
+<a asp-controller="Home" asp-action="GetCache" class="btn btn-primary">Get cache</a>
+
+<p>Present tense : @DateTime.Now</p>
+<p>cache Memory Value : @(Model == null ? "cache it is empty" : Model)</p>
