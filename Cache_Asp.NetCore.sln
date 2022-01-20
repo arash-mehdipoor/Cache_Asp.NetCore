@@ -5,7 +5,11 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InMemoryCache", "InMemoryCache", "{8E761119-CE21-4B03-8CA9-6A43B2B3A532}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryCache", "InMemoryCache\InMemoryCache\InMemoryCache.csproj", "{D64F9A74-68D8-4033-8F4D-309F68F5DC9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemoryCache", "InMemoryCache\InMemoryCache\InMemoryCache.csproj", "{D64F9A74-68D8-4033-8F4D-309F68F5DC9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DistributedCache", "DistributedCache", "{152F9887-772D-4CB9-BC93-5A9F8AC00ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedCache_Sql", "DistributedCache\DistributedCache_Sql\DistributedCache_Sql.csproj", "{A50CA167-D67C-43A3-9B40-3842B3F5AC2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{D64F9A74-68D8-4033-8F4D-309F68F5DC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D64F9A74-68D8-4033-8F4D-309F68F5DC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D64F9A74-68D8-4033-8F4D-309F68F5DC9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50CA167-D67C-43A3-9B40-3842B3F5AC2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50CA167-D67C-43A3-9B40-3842B3F5AC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50CA167-D67C-43A3-9B40-3842B3F5AC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50CA167-D67C-43A3-9B40-3842B3F5AC2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D64F9A74-68D8-4033-8F4D-309F68F5DC9B} = {8E761119-CE21-4B03-8CA9-6A43B2B3A532}
+		{A50CA167-D67C-43A3-9B40-3842B3F5AC2C} = {152F9887-772D-4CB9-BC93-5A9F8AC00ECE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB2B8AAF-9E76-4BFE-BB6B-0220D5AEC239}
